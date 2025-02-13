@@ -17,7 +17,7 @@ export default defineConfig({
           name: `app01`,
           filename: `app01_remoteEntry.js`,
           remotes: {
-            app02: "app02@https://www.hrgui.dev/button/remoteEntry.js",
+            app02: "app02@https://www.hrgui.dev/mf-playground/button/remoteEntry.js",
           },
         }),
       ]);

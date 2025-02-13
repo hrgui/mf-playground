@@ -8,6 +8,7 @@ on:
       - ".github/workflows/**"
       - "package.json"
       - "vite.config.ts"
+      - "rsbuild.config.ts"
       - "astro.config.mjs"
       - "yarn.lock"
       - "bun.lockb"
