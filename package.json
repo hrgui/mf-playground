@@ -1,0 +1,20 @@
+{
+  "name": "@hrgui/mf-playground",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --filter \"@hrgui/mfp-*\" dev",
+    "build": "bun run --filter \"@hrgui/mfp-*\" build",
+    "preview": "bun run --filter \"@hrgui/mfp-*\" preview",
+    "postbuild": "sh ./postbuild.sh"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
