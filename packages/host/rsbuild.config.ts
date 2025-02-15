@@ -19,6 +19,7 @@ export default defineConfig({
           remotes: {
             app02: "app02@https://www.hrgui.dev/mf-playground/button/remoteEntry.js",
           },
+          shared: ["react", "react-dom"],
         }),
       ]);
     },
