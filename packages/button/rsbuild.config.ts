@@ -20,6 +20,7 @@ export default defineConfig({
           exposes: {
             "./button": "./src/button.tsx",
           },
+          shared: ["react", "react-dom"],
         }),
       ]);
     },
