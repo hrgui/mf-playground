@@ -1,3 +1,7 @@
+import { useState } from "react";
+
 export default function Button() {
-  return <div>Provider button</div>;
+  const [count, setCount] = useState(0);
+
+  return <button onClick={() => setCount(Date.now())}>Provider button {count}</button>;
 }
